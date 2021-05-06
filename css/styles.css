@@ -1,0 +1,146 @@
+/*======================================
+
+  Fonts
+
+*====================================*/
+@font-face {
+  font-family: "typo-draft";
+  src: url("../fonts/typo-draft/typo-draft.ttf");
+}
+
+/*======================================
+
+  Universal Styling
+
+*====================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+} /* this is the reset rule. It gets rid of default CSS added by the browsers */
+
+body {
+  background: url(../images/background.jpg) no-repeat center/cover;
+}
+
+main {
+  background: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  font-family: "typo-draft", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 14px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+h3{
+    padding: 20px 0;
+    clear: both;
+}
+
+h4 {
+    padding: 10px 0 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 140%;
+    margin: 15px 0;
+}
+
+footer {
+    background: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.first-album img {
+    float: left;
+    margin-right: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+/*======================================
+
+  Home Page Styling
+
+*====================================*/
+
+.hero-image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.learn-more a {
+    background: red;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+/*======================================
+
+  Table Styling
+
+*====================================*/
+.concert-schedule th {
+    background: #f2f2f2;
+    padding: 10px 30px;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 14px;
+}
+
+table.concert-schedule td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*======================================
+
+  Tour Styling
+
+*====================================*/
+.tour-map-container {
+  clear: both;
+}
+
+.left-column,
+.right-column {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-column {
+    margin-right: 1%;
+}
+
+.left-column img {
+    width: 100%;
+}
